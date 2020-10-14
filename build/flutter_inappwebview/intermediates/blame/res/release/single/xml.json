@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Mrs Elo Otiede\\Documents\\Oti-Stories-App\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\xml\\image_share_filepaths.xml",
+        "source": "C:\\Users\\Mrs Elo Otiede\\.gradle\\caches\\transforms-2\\files-2.1\\84bd3266e257a6ed6137b67f2b6129c6\\browser-1.2.0\\res\\xml\\image_share_filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mrs Elo Otiede\\Documents\\Oti-Stories-App\\build\\flutter_inappwebview\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_inappwebview-4.0.0+4\\android\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]

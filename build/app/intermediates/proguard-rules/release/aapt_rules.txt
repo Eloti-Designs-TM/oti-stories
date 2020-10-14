@@ -1,0 +1,112 @@
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:29
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:74
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:39
+-keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:38
+-keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:47
+-keep class com.otistories.otistories.MainActivity { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:106
+-keep class com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:101
+-keep class com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:29
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:108
+-keep class io.flutter.plugins.share.ShareFileProvider { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:93
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:83
+-keep class vn.hunghd.flutterdownloader.DownloadedFileProvider { <init>(); }
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\84bd3266e257a6ed6137b67f2b6129c6\browser-1.2.0\res\layout\browser_actions_context_menu_page.xml:17
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\d8e69336e21c6a428e8a9e9d99518477\appcompat-1.0.0\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\layout\activity_web_view.xml:13
+-keep class com.pichillilorenzo.flutter_inappwebview.InAppWebView.InAppWebView { <init>(...); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\menu\menu_main.xml:36
+-keepclassmembers class * { *** closeButtonClicked(android.view.MenuItem); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\menu\menu_main.xml:8
+-keepclassmembers class * { *** goBackButtonClicked(android.view.MenuItem); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\menu\menu_main.xml:15
+-keepclassmembers class * { *** goForwardButtonClicked(android.view.MenuItem); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\menu\menu_main.xml:29
+-keepclassmembers class * { *** reloadButtonClicked(android.view.MenuItem); }
+
+# Referenced at C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\packaged_res\release\menu\menu_main.xml:22
+-keepclassmembers class * { *** shareButtonClicked(android.view.MenuItem); }
+
