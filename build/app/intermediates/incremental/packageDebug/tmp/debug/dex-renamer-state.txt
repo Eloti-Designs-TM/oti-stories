@@ -1,0 +1,7 @@
+#Sun Oct 18 22:41:26 WAT 2020
+base.0=C\:\\Users\\Mrs Elo Otiede\\Documents\\Oti-Stories-App\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\Mrs Elo Otiede\\Documents\\Oti-Stories-App\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex

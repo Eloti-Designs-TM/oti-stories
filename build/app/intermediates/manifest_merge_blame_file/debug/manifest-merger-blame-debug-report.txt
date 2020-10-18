@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.otistories.otistories"
+4    android:versionCode="12"
+5    android:versionName="1.2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:2:2-64
+14-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:2:19-61
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:3:2-78
+15-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:3:19-75
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:4:2-63
+16-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:4:19-60
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:5:2-65
+17-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:5:19-62
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:6:2-76
+18-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:6:19-73
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:7:2-74
+19-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:7:19-71
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:8:2-77
+20-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:8:19-74
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:9:2-78
+21-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:9:19-75
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[:connectivity] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+22-->[:connectivity] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+23    <!--
+24	io.flutter.app.FlutterApplication is an android.app.Application that
+25	calls FlutterMain.startInitialization(this); in its onCreate method.
+26	In most cases you can leave this as-is, but you if you want to provide
+27	additional functionality it is fine to subclass or reimplement
+28	FlutterApplication and put your custom class here.
+29    -->
+30    <!-- <application -->
+31    <!-- android:name=".Application"/> -->
+32    <application
+32-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:19:2-75:16
+33        android:name="io.flutter.app.FlutterApplication"
+33-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:19:15-63
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.3.1] C:\Users\Mrs Elo Otiede\.gradle\caches\transforms-2\files-2.1\92122df0879963db4a927cde31ef6bfe\core-1.3.1\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:19:64-98
+37        android:label="Oti Stories" >
+37-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:19:99-126
+38        <meta-data
+38-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:20:3-126
+39            android:name="com.google.firebase.messaging.default_notification_icon"
+39-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:20:14-84
+40            android:resource="@drawable/note_icon" />
+40-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:20:85-123
+41
+42        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+42-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:21:3-100
+42-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:21:13-97
+43        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+43-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:22:3-29:14
+43-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:22:13-101
+44            <intent-filter>
+44-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:23:4-28:20
+45                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:24:5-67
+45-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:24:13-64
+46                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+46-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:25:5-72
+46-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:25:13-69
+47                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+47-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:26:5-70
+47-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:26:13-67
+48                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+48-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:27:5-70
+48-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:27:13-67
+49            </intent-filter>
+50        </receiver>
+51        <!-- <service android:name=".MyService" android:exported="true" android:enabled="true"/> -->
+52        <activity
+52-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:31:9-52:14
+53            android:name="com.otistories.otistories.MainActivity"
+53-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:32:10-38
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:33:10-160
+55            android:hardwareAccelerated="true"
+55-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:34:10-44
+56            android:launchMode="singleTop"
+56-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:35:10-40
+57            android:showWhenLocked="true"
+57-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:38:10-39
+58            android:theme="@style/LaunchTheme"
+58-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:36:10-44
+59            android:turnScreenOn="true"
+59-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:39:10-37
+60            android:windowSoftInputMode="adjustResize" >
+60-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:37:10-52
+61            <intent-filter>
+61-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:40:4-45:20
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:41:17-42:62
+62-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:42:18-59
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:43:17-44:68
+64-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:44:18-65
+65            </intent-filter>
+66            <intent-filter>
+66-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:46:4-51:20
+67                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+67-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:47:17-48:62
+67-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:48:18-59
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:49:17-50:67
+69-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:50:18-64
+70            </intent-filter>
+71        </activity>
+72        <!--
+73		Don't delete the meta-data below.
+74		This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+76-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:57:3-105
+77            android:name="flutterEmbedding"
+77-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:57:14-45
+78            android:resource="@drawable/note_icon"
+78-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:57:46-84
+79            android:value="2" />
+79-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:57:85-102
+80		/>
+81        <provider
+81-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:59:3-65:14
+82            android:name="androidx.core.content.FileProvider"
+82-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:59:13-62
+83            android:authorities="com.otistories.otistories.flutter_inappwebview.fileprovider"
+83-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:60:3-84
+84            android:exported="false"
+84-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:61:4-28
+85            android:grantUriPermissions="true" >
+85-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:62:4-38
+86            <meta-data
+86-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:63:4-64:45
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:63:15-65
+88                android:resource="@xml/provider_paths" />
+88-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:64:4-42
+89        </provider>
+90        <!--
+91        <provider
+92		 android:name="vn.hunghd.flutterdownloader.DownloadedFileProvider"
+93		  android:authorities="com.otistories.otistories.flutter_downloader.provider"
+94			android:exported="false" 
+95			android:grantUriPermissions="true">
+96			<meta-data 
+97			android:name="android.support.FILE_PROVIDER_PATHS" 
+98			android:resource="@xml/provider_paths" />
+99		</provider>
+100        -->
+101        <activity
+101-->[:url_launcher] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+102-->[:url_launcher] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+103            android:exported="false"
+103-->[:url_launcher] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+104-->[:url_launcher] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+105        <activity
+105-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:47
+106            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+106-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-102
+107            android:configChanges="orientation|screenSize"
+107-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-59
+108            android:theme="@style/AppTheme" />
+108-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-44
+109        <activity
+109-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:55
+110            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+110-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-110
+111            android:configChanges="orientation|screenSize"
+111-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-59
+112            android:theme="@style/ThemeTransparent" />
+112-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-52
+113
+114        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+114-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-118
+114-->[:flutter_inappwebview] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-115
+115
+116        <provider
+116-->[:share] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+117            android:name="io.flutter.plugins.share.ShareFileProvider"
+117-->[:share] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-70
+118            android:authorities="com.otistories.otistories.flutter.share_provider"
+118-->[:share] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+119            android:exported="false"
+119-->[:share] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+120            android:grantUriPermissions="true" >
+120-->[:share] C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+121            <meta-data
+121-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:63:4-64:45
+122                android:name="android.support.FILE_PROVIDER_PATHS"
+122-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:63:15-65
+123                android:resource="@xml/flutter_share_file_paths" />
+123-->C:\Users\Mrs Elo Otiede\Documents\Oti-Stories-App\android\app\src\main\AndroidManifest.xml:64:4-42
+124        </provider>
+125    </application>
+126
+127</manifest>

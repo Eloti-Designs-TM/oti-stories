@@ -302,15 +302,7 @@ class _HomeViewState extends State<HomeView> {
                 height: double.infinity,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      List: [
-  Colors.white,
-                        Colors.pink[100],
-                        Colors.purple[100],
-                      ],
-                    ),
+                
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,

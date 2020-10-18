@@ -104,6 +104,7 @@ class _StartViewState extends State<StartView> {
   }
 
   showDailyNotification() async {
+
     await Permission.notification.request();
     print('running ');
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
@@ -129,7 +130,7 @@ class _StartViewState extends State<StartView> {
     await localStorage.setBool('setAlerm', true);
     //--------------
     localStorage = await SharedPreferences.getInstance();
-    if (localStorage.getBool('setAlerm') == false) {
+    if (localStorage.getBool('setAlerm') == true) {
       showDailyNotification();
       print('set timer');
       _checkTimer();

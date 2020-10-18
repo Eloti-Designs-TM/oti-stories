@@ -87,10 +87,12 @@ Referenced Strings:
   ACTION_UNKNOWN
   ACTVAutoSizeHelper
   ADD
+  ALERT
   ATTACH
   AccessibilityBridge
   AccessibilityChannel
   Android
+  AndroidKeyProcessor
   AppCompatDelegate
   AppCompatDrawableManag
   AppCompatResources
@@ -124,6 +126,9 @@ Referenced Strings:
   CANCEL
   CHARACTERS
   CLICK
+  CLIP_PATH
+  CLIP_RECT
+  CLIP_RRECT
   CName
   COMPRESSED
   COMPRESSION_ERROR
@@ -142,7 +147,9 @@ Referenced Strings:
   CheckedTextView
   ChromeBrowserManager
   Class
+  ClickableViewAccessibility
   Clipboard.getData
+  Clipboard.hasStrings
   Clipboard.setData
   ComplexColorCompat
   CompoundButtonCompat
@@ -229,6 +236,7 @@ Referenced Strings:
   GMSCore_OpenSSL
   GMT
   GOAWAY
+  GeneratedPluginsRegister
   H2_PRIOR_KNOWLEDGE
   HAS_CHECKED_STATE
   HAS_ENABLED_STATE
@@ -301,6 +309,7 @@ Referenced Strings:
   InputAwareWebView
   J
   JSBridgeInterface
+  KeyEventChannel
   LANDSCAPE_LEFT
   LANDSCAPE_RIGHT
   LEFT
@@ -369,10 +378,12 @@ Referenced Strings:
   ON_START
   ON_STOP
   OName
+  OPACITY
   OP_POST_NOTIFICATION
   OP_SET_MAX_LIFECYCLE
   OkHttp
   Operations:
+  Override
   PADDED
   PASTE
   PATCH
@@ -505,6 +516,7 @@ Referenced Strings:
   SystemChrome.setSystemUIOverlayStyle
   SystemNavigator.pop
   SystemSound.play
+  SystemSoundType.alert
   SystemSoundType.click
   SystemUiOverlay.bottom
   SystemUiOverlay.top
@@ -617,6 +629,7 @@ Referenced Strings:
   TLSv1.3
   TOP_OVERLAYS
   TRACING_CONTROLLER_BASIC_USAGE
+  TRANSFORM
   TRUE
   TaskStackBuilder
   TextCapitalization.characters
@@ -624,8 +637,10 @@ Referenced Strings:
   TextCapitalization.sentences
   TextCapitalization.words
   TextInput.clearClient
+  TextInput.finishAutofillContext
   TextInput.hide
   TextInput.requestAutofill
+  TextInput.sendAppPrivateCommand
   TextInput.setClient
   TextInput.setEditableSizeAndTransform
   TextInput.setEditingState
@@ -642,6 +657,7 @@ Referenced Strings:
   TextInputAction.unspecified
   TextInputChannel
   TextInputClient.performAction
+  TextInputClient.performPrivateCommand
   TextInputClient.requestExistingInputS...
   TextInputClient.updateEditingState
   TextInputClient.updateEditingStateWit...
@@ -763,6 +779,8 @@ Referenced Strings:
   addressState
   age
   alarm
+  alias
+  allScroll
   allocateInstance
   allow
   allowContentAccess
@@ -998,10 +1016,12 @@ Referenced Strings:
   autocorrect
   autofill
   autoname
+  background
   background_mode
   base
   baseUrl
   basename
+  basic
   bigPicture
   bigPictureBitmapSource
   bigText
@@ -1037,6 +1057,7 @@ Referenced Strings:
   cancelAll
   cancelButtonTitle
   category
+  cell
   centerColor
   centerX
   centerY
@@ -1066,6 +1087,7 @@ Referenced Strings:
   clearMatches
   clearSessionCache
   clearSslPreferences
+  cleartextTrafficPermitted
   click
   clipboard
   close
@@ -1123,6 +1145,7 @@ Referenced Strings:
   controlY2
   conversationTitle
   cookie
+  copy
   countryName
   create
   createFromFamiliesWithDefault
@@ -1203,6 +1226,7 @@ Referenced Strings:
   enableUrlBarHiding
   enableVibration
   enable_state_restoration
+  enabled
   enabled_notification_listeners
   encoding
   endColor
@@ -1270,6 +1294,7 @@ Referenced Strings:
   font_variation_settings
   font_weight
   fonts
+  forbidden
   forceDark
   forward
   fraction
@@ -1352,6 +1377,7 @@ Referenced Strings:
   gzip
   h2
   h2_prior_knowledge
+  handled
   handledByClient
   handlerName
   hardwareAcceleration
@@ -1360,6 +1386,7 @@ Referenced Strings:
   headers
   headersFallback
   height
+  help
   hidden
   hide
   hideDefaultSystemContextMenuItems
@@ -1370,7 +1397,6 @@ Referenced Strings:
   history
   historyUrl
   hitTestResult
-  horizontalDoubleArrow
   horizontalScrollBarEnabled
   host
   hosts
@@ -1393,6 +1419,7 @@ Referenced Strings:
   https
   https:
   https://
+  hybrid
   icon
   iconSource
   id
@@ -1402,6 +1429,7 @@ Referenced Strings:
   importance
   important
   in_progress
+  includeSubdomains
   incognito
   indeterminate
   initialData
@@ -1556,6 +1584,7 @@ Referenced Strings:
   mobile
   monospace
   month
+  move
   name
   namePrefix
   nameSuffix
@@ -1570,6 +1599,7 @@ Referenced Strings:
   newScale
   newUsername
   nm
+  noDrop
   nodeId
   none
   notification
@@ -1663,6 +1693,7 @@ Referenced Strings:
   originalUrl
   output
   overScrollMode
+  overlay
   override
   overshootInterpolator
   package:
@@ -1721,6 +1752,7 @@ Referenced Strings:
   postalAddressExtendedPostalCode
   postalCode
   power
+  precise
   precomposed
   preferredContentMode
   previousFailureCount
@@ -1789,6 +1821,19 @@ Referenced Strings:
   requestPermissions
   res/
   resize
+  resizeColumn
+  resizeDown
+  resizeDownRight
+  resizeLeft
+  resizeLeftRight
+  resizeRight
+  resizeRow
+  resizeUp
+  resizeUpDown
+  resizeUpLeft
+  resizeUpLeftDownRight
+  resizeUpRight
+  resizeUpRightDownLeft
   resourceCustomSchemes
   resources
   result
@@ -1860,7 +1905,6 @@ Referenced Strings:
   setLayoutDirection
   setLocale
   setOptions
-  setPlatformResolvedLocale
   setSafeBrowsingWhitelist
   setStarted
   setString
@@ -2022,9 +2066,9 @@ Referenced Strings:
   vector
   vendorId
   versionName
-  verticalDoubleArrow
   verticalScrollBarEnabled
   verticalScrollbarPosition
+  verticalText
   via
   vibrationPattern
   video
@@ -2038,6 +2082,7 @@ Referenced Strings:
   vm_snapshot_data
   w
   wa
+  wait
   waivedWhenNotVisible
   warnIfOpen
   web_search
@@ -2205,6 +2250,15 @@ Marking id:textSpacerNoTitle:2131165362 used because its prefix matches string p
 Marking id:menu_search:2131165304 used because its prefix matches string pool constant menu
 Marking menu:menu_main:2131361792 used because its prefix matches string pool constant menu
 Marking string:menu_search:2131558448 used because its prefix matches string pool constant menu
+Marking attr:background:2130837553 used because its prefix matches string pool constant background
+Marking attr:backgroundSplit:2130837554 used because its prefix matches string pool constant background
+Marking attr:backgroundStacked:2130837555 used because its prefix matches string pool constant background
+Marking attr:backgroundTint:2130837556 used because its prefix matches string pool constant background
+Marking attr:backgroundTintMode:2130837557 used because its prefix matches string pool constant background
+Marking color:background_floating_material_dark:2130968604 used because its prefix matches string pool constant background
+Marking color:background_floating_material_light:2130968605 used because its prefix matches string pool constant background
+Marking color:background_material_dark:2130968606 used because its prefix matches string pool constant background
+Marking color:background_material_light:2130968607 used because its prefix matches string pool constant background
 Marking attr:progressBarPadding:2130837687 used because its prefix matches string pool constant progressBar
 Marking attr:progressBarStyle:2130837688 used because its prefix matches string pool constant progressBar
 Marking id:progressBar:2131165315 used because its prefix matches string pool constant progressBar
@@ -2499,6 +2553,7 @@ Marking id:textSpacerNoTitle:2131165362 used because its prefix matches string p
 Marking attr:queryBackground:2130837689 used because its prefix matches string pool constant query
 Marking attr:queryHint:2130837690 used because its prefix matches string pool constant query
 Marking id:none:2131165309 used because its prefix matches string pool constant none
+Marking string:copy_toast_msg:2131558444 used because its prefix matches string pool constant copy
 Resource Reference Graph:
 anim:abc_grow_fade_in_from_bottom:2130771970 => [integer:abc_config_activityDefaultDur:2131230720, integer:abc_config_activityShortDur:2131230721]
 anim:abc_popup_enter:2130771971 => [integer:abc_config_activityShortDur:2131230721]
@@ -2996,6 +3051,11 @@ attr:actionBarDivider:2130837504,
    attr:alpha:2130837543,
    attr:alphabeticModifiers:2130837544,
    attr:autoCompleteTextViewStyle:2130837547,
+   attr:background:2130837553,
+   attr:backgroundSplit:2130837554,
+   attr:backgroundStacked:2130837555,
+   attr:backgroundTint:2130837556,
+   attr:backgroundTintMode:2130837557,
    attr:buttonStyle:2130837568,
    attr:checkboxStyle:2130837572,
    attr:checkedTextViewStyle:2130837573,
@@ -3112,6 +3172,10 @@ attr:actionBarDivider:2130837504,
    color:abc_tint_switch_track:2130968599,
    color:androidx_core_ripple_material_light:2130968602,
    color:androidx_core_secondary_text_default_material_light:2130968603,
+   color:background_floating_material_dark:2130968604,
+   color:background_floating_material_light:2130968605,
+   color:background_material_dark:2130968606,
+   color:background_material_light:2130968607,
    color:error_color_material_dark:2130968625,
    color:error_color_material_light:2130968626,
    color:notification_action_color_filter:2130968643,
@@ -3457,6 +3521,7 @@ attr:actionBarDivider:2130837504,
    string:action_go_forward:2131558441,
    string:action_reload:2131558442,
    string:action_share:2131558443,
+   string:copy_toast_msg:2131558444,
    string:menu_search:2131558448,
    string:search_menu_title:2131558449,
    string:status_bar_notification_info_overflow:2131558450,
